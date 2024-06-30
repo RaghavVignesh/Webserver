@@ -10,7 +10,7 @@ import org.apache.logging.log4j.Logger;
 public class RequestServer {
     protected static final Logger logger = LogManager.getLogger();
 
-    public static void main(String[] args) throws Exception {
+    public void run( ) {
 
         try {
             ServerSocket mySocket = new ServerSocket(80);
